@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CODE\\myDev\\c#\\dapr\\learning\\dapr-fraud-detection\\src\\NotifierService\\NotifierService.csproj": {}
+    "C:\\GitHubRepo\\dapr-fraud-detection\\src\\NotifierService\\NotifierService.csproj": {}
   },
   "projects": {
-    "C:\\CODE\\myDev\\c#\\dapr\\learning\\dapr-fraud-detection\\src\\NotifierService\\NotifierService.csproj": {
+    "C:\\GitHubRepo\\dapr-fraud-detection\\src\\NotifierService\\NotifierService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CODE\\myDev\\c#\\dapr\\learning\\dapr-fraud-detection\\src\\NotifierService\\NotifierService.csproj",
+        "projectUniqueName": "C:\\GitHubRepo\\dapr-fraud-detection\\src\\NotifierService\\NotifierService.csproj",
         "projectName": "NotifierService",
-        "projectPath": "C:\\CODE\\myDev\\c#\\dapr\\learning\\dapr-fraud-detection\\src\\NotifierService\\NotifierService.csproj",
+        "projectPath": "C:\\GitHubRepo\\dapr-fraud-detection\\src\\NotifierService\\NotifierService.csproj",
         "packagesPath": "C:\\Users\\91961\\.nuget\\packages\\",
-        "outputPath": "C:\\CODE\\myDev\\c#\\dapr\\learning\\dapr-fraud-detection\\src\\NotifierService\\obj\\",
+        "outputPath": "C:\\GitHubRepo\\dapr-fraud-detection\\src\\NotifierService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

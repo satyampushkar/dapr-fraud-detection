@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kqpt4NtqtNDIctwR+lWExSDfvIBq+79BSK8oN/QAS7BTK8U3ywuZWBDBkIb55kb67+7YXUphoSvwy5C+Bg0dww==",
+  "dgSpecHash": "9WQhGC2VOEuSBXu9Z0ntlVyY0eFV4w0eAdF7zz7Vr5OEOgf6FwdTV/Y4xSLD0hz+SG156Yk37V/dkWRMmvF6dg==",
   "success": true,
-  "projectFilePath": "C:\\CODE\\myDev\\c#\\dapr\\learning\\dapr-fraud-detection\\src\\TransactionSimulation\\TransactionSimulation.csproj",
+  "projectFilePath": "C:\\GitHubRepo\\dapr-fraud-detection\\src\\TransactionSimulation\\TransactionSimulation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\91961\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Users\\91961\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",

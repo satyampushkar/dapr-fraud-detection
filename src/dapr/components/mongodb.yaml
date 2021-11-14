@@ -1,0 +1,27 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: mongostatestore
+  namespace: dapr-frauddetaction
+spec:
+  type: state.mongodb
+  version: v1
+  metadata:
+  # - name: server
+  #   value: "localhost" # Required unless "host" field is set . Example: "server.example.com"
+  - name: host
+    value: "localhost:27017" # Required unless "server" field is set . Example: "mongo-mongodb.default.svc.cluster.local:27017"
+  # - name: username
+  #   value: <REPLACE-WITH-USERNAME> # Optional. Example: "admin"
+  # - name: password
+  #   value: <REPLACE-WITH-PASSWORD> # Optional.
+  - name: databaseName
+    value: "daprStore" # Optional. default: "daprStore"
+  - name: collectionName
+    value: "daprFrauddetaction" # Optional. default: "daprCollection"
+  # - name: writeconcern
+  #   value: <REPLACE-WITH-WRITE-CONCERN> # Optional.
+  # - name: readconcern
+  #   value: <REPLACE-WITH-READ-CONCERN> # Optional.
+  - name: operationTimeout
+    value: "10s" # Optional. default: "5s"

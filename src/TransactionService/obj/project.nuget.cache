@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "huelQOcItq2ryfQUSeUbYkvI62WNLwqHlpvrfsFO5vvGKsizTqLeySVwzRP78w9kfZG85O0D6wmtXNgLTNEnhA==",
+  "dgSpecHash": "qPPAe/OnjOw9LuHGIrbhMzLScdTsrTVRB+5CmuEDwR4uLeYe6EWyXIEKkX2Hc9/rVBqqgJEwtklWa9hpI3N9wg==",
   "success": true,
-  "projectFilePath": "C:\\CODE\\myDev\\c#\\dapr\\learning\\dapr-fraud-detection\\src\\TransactionService\\TransactionService.csproj",
+  "projectFilePath": "C:\\GitHubRepo\\dapr-fraud-detection\\src\\TransactionService\\TransactionService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\91961\\.nuget\\packages\\dapr.aspnetcore\\1.4.0\\dapr.aspnetcore.1.4.0.nupkg.sha512",
     "C:\\Users\\91961\\.nuget\\packages\\dapr.client\\1.4.0\\dapr.client.1.4.0.nupkg.sha512",
