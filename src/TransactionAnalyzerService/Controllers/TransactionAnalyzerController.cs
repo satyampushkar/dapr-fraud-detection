@@ -28,7 +28,7 @@ namespace TransactionAnalyzerService.Controllers
                     _logger.LogInformation($"Fraud Transaction Detected :: For user {transaction.UserId}" 
                     +$" of amount {transaction.Amount} at merchant {transaction.MerchantId}");
 
-                    await daprClient.PublishEventAsync("kafkapubsub", "fraudtransactions", transaction);
+                    await daprClient.PublishEventAsync("pubsub", "fraudtransactions", transaction);
                 }
 
                 return Ok();
