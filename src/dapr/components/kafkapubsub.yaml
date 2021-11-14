@@ -1,0 +1,25 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: kafkapubsub
+  namespace: default
+spec:
+  type: pubsub.kafka
+  version: v1
+  metadata:
+  - name: brokers # Required. Kafka broker connection setting
+    value: "localhost:9092" #"dapr-kafka.myapp.svc.cluster.local:9092"
+  # - name: consumerGroup # Optional. Used for input bindings.
+  #   value: "group1"
+  # - name: clientID # Optional. Used as client tracing ID by Kafka brokers.
+  #   value: "my-dapr-app-id"
+  - name: authRequired # Required.
+    value: "false" #"true"
+  # - name: saslUsername # Required if authRequired is `true`.
+  #   value: "adminuser"
+  # - name: saslPassword # Required if authRequired is `true`.
+  #   secretKeyRef:
+  #     name: kafka-secrets
+  #     key: saslPasswordSecret
+  # - name: maxMessageBytes # Optional.
+  #   value: 1024

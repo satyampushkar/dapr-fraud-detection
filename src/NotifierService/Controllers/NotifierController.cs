@@ -16,7 +16,7 @@ namespace NotifierService.Controllers
             _logger = logger;
         }
 
-        [Topic("pubsub", "fraudtransactions")]
+        [Topic("kafkapubsub", "fraudtransactions")]
         [Route("notify")]
         [HttpPost]
         public async Task<IActionResult> Notify(Transaction transaction, [FromServices] DaprClient daprClient)
