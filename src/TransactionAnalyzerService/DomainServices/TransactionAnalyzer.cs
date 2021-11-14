@@ -19,7 +19,7 @@ namespace TransactionAnalyzerService.DomainServices
                 return false;
             }
 
-            if(transaction.Amount > 10000
+            if(transaction.Amount > 30000
             && !usersTransactions.Any(x => x.MerchantId == transaction.MerchantId 
                                             && x.State == TransactionState.VALID))
             {
