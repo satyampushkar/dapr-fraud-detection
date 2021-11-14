@@ -5,8 +5,8 @@ namespace TransactionAnalyzerService.Repositories
 {
     public class TransactionRepository : ITransactionRepository
     {
-        //private const string DAPR_STORE_NAME = "statestore";
-        private const string DAPR_STORE_NAME = "mongostatestore";
+        private const string DAPR_STORE_NAME = "statestore";
+        //private const string DAPR_STORE_NAME = "mongostatestore";
         private const string DAPR_BLOCKED_MERCHANT_IDS = "blockedMerchantIds";
         private readonly DaprClient _daprClient;
 
