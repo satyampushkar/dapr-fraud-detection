@@ -4,10 +4,10 @@
  * Initialize dapr
 
    Run the command 
+   
+   `dapr init`
 
-  `dapr init`
-
-   `dapr --version`
+    `dapr --version`
 
  * Start Infrastructure
  
