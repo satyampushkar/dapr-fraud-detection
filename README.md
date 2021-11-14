@@ -3,32 +3,32 @@
  
  * Initialize dapr
 
-   Run the command 
-   
-   `dapr init`
+     Run the command 
 
-    `dapr --version`
+     `dapr init`
+
+      `dapr --version`
 
  * Start Infrastructure
  
-   Change directory to 'src\Infrastructure' and run 
+     Change directory to 'src\Infrastructure' and run 
 
-   `start-all.ps1`
+     `start-all.ps1`
  
  * Start services in self-hosted mode
  
-   Change directory to 'src\TransactionService' and run
+     Change directory to 'src\TransactionService' and run
 
-   `start-selfhosted.ps1`
+     `start-selfhosted.ps1`
 
-    Change directory to 'src\TransactionAnalyzerService' and run
+      Change directory to 'src\TransactionAnalyzerService' and run
 
-   `start-selfhosted.ps1`
+     `start-selfhosted.ps1`
 
-    Change directory to 'src\NotifierService' and run
+      Change directory to 'src\NotifierService' and run
 
-   `start-selfhosted.ps1`
+     `start-selfhosted.ps1`
 
-  Change directory to 'src\TransactionSimulation' and run
+     Change directory to 'src\TransactionSimulation' and run
 
-   `dotnet run`
+      `dotnet run`
