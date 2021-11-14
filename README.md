@@ -32,3 +32,7 @@
      Change directory to 'src\TransactionSimulation' and run
 
       `dotnet run`
+
+ * Check emails (using maildev) at http://localhost:4000/#/
+ * Check traces (using zipkin) at http://localhost:9411/zipkin/ 
+ * Check RabbitMQ at http://localhost:15672/#/ (guest/guest)
